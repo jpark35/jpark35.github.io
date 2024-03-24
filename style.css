@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif; /* Use a web-safe font or import a custom font */
+    color: #333; /* Text color */
+    background-color: #FAF9F6; /* Background color */
+    padding: 20px; /* Padding around the content */
+    line-height: 1.6; /* Line height for readability */
+
+  }
+  
+  body::before{
+    content: "";
+    display: block;
+    max-width: 1150px;
+    margin: auto;
+    justify-content: center;
+    height: 5px; /* Height of the colored bar */
+    background-color: #000000; /* Color of the bar */
+    margin-top: 55px; /* Adjust the size as needed */
+    margin-bottom: 10px; /* Adjust the size as needed */
+    }
+
+  body::after{
+    content: "";
+    display: flex;
+    max-width: 1150px;
+    margin: auto;
+    justify-content: center;
+    height: 5px; /* Height of the colored bar */
+    background-color: #000000; /* Color of the bar */
+    margin-top: 50px;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 1150px; /* Max width of the content area */
+    margin: auto; /* Center the container */
+    text-align: left;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column; /* Stacks items vertically */
+    justify-content: center; /* Centers content vertically */
+  }
+  
+  h1 {
+    font-size: 3em; /* Size of the main title */
+    color: #000; /* Title color */
+    padding-top: 1px;
+    margin-bottom: 7px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin-bottom: 1em; /* Space below paragraphs */
+  }
+
+  .assignment a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  img {
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+  }
+
+  img.transparent {
+    opacity: 1;
+  }
+  
+  .button {
+    background: none;
+    border: none;
+    text-decoration: none;
+    margin: 2 15px;
+    padding: 11px;
+    transition: color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 7px;
+
+  }
+
+  .button:hover{
+    background-color: rgb(175, 175, 175); 
+    cursor: pointer;
+    border-radius: 7px;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    font-size: 0.6em;
+    margin-top: 0;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-link {
+    color: inherit;
+    text-decoration: underline;
+  }
+  

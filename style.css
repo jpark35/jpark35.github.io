@@ -1,9 +1,9 @@
 body {
-    font-family: Arial, sans-serif; /* Use a web-safe font or import a custom font */
-    color: #333; /* Text color */
-    background-color: #FAF9F6; /* Background color */
-    padding: 20px; /* Padding around the content */
-    line-height: 1.6; /* Line height for readability */
+    font-family: Arial, sans-serif; 
+    color: #333; 
+    background-color: #FAF9F6; 
+    padding: 20px; 
+    line-height: 1.6; 
 
   }
   
@@ -13,10 +13,10 @@ body {
     max-width: 1150px;
     margin: auto;
     justify-content: center;
-    height: 5px; /* Height of the colored bar */
-    background-color: #000000; /* Color of the bar */
-    margin-top: 170px; /* Adjust the size as needed */
-    margin-bottom: 10px; /* Adjust the size as needed */
+    height: 5px; 
+    background-color: #000000; 
+    margin-top: 170px; 
+    margin-bottom: 10px; 
     }
 
   body::after{
@@ -25,32 +25,32 @@ body {
     max-width: 1150px;
     margin: auto;
     justify-content: center;
-    height: 5px; /* Height of the colored bar */
-    background-color: #000000; /* Color of the bar */
+    height: 5px; 
+    background-color: #000000; 
     margin-top: 50px;
   }
   
   .container {
     display: flex;
-    max-width: 1150px; /* Max width of the content area */
-    margin: auto; /* Center the container */
+    max-width: 1150px;
+    margin: auto; 
     text-align: left;
     padding: 20px;
     justify-content: center;
-    flex-direction: column; /* Stacks items vertically */
-    justify-content: center; /* Centers content vertically */
+    flex-direction: column; 
+    justify-content: center; 
   }
   
   h1 {
-    font-size: 3em; /* Size of the main title */
-    color: #000; /* Title color */
+    font-size: 3em; 
+    color: #000; 
     padding-top: 1px;
     margin-bottom: 7px;
   }
   
   p {
     font-size: 1.2em;
-    margin-bottom: 1em; /* Space below paragraphs */
+    margin-bottom: 1em; 
   }
 
   .assignment a {

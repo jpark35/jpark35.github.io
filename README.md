@@ -9,6 +9,5 @@ You can visit his page at https://jpark35.github.io/
 This website introduces users to JoonWoo Park. 
 
 <br>
-<br>
 
 This website uses icons provided by Icon8.
